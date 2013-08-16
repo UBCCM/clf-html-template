@@ -3,6 +3,8 @@ CLF HTML Templates
 
 UBC CLF 7.0 HTML Templates
 
+**Current Version: v7.0.4**
+
 Latest version of UBC CLF HTML templates. For more information, please visit [UBC CLF](http://clf.ubc.ca)
 
 For colour options, please visit [UBC CLF theme](http://clf.ubc.ca/implementing-the-clf/#theme)

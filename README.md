@@ -7,9 +7,9 @@ Latest version of UBC CLF HTML templates. For more information, please visit [UB
 
 What's available?
 -----------------
-* full-template.html: Fixed Width Layout - * [Result](http://clf.ubc.ca/theme-options/full-template.html) *
-* full-width-center.html: Full Width and Center Aligned Layout - * [Result](http://clf.ubc.ca/theme-options/full-width-centered-template.html) *
-* full-width-left.html: Full Width and Left Aligned Layout - * [Result](http://clf.ubc.ca/theme-options/full-width-left-template.html)*
+* full-template.html: Fixed Width Layout - *[Result](http://clf.ubc.ca/theme-options/full-template.html)*
+* full-width-center.html: Full Width and Center Aligned Layout - *[Result](http://clf.ubc.ca/theme-options/full-width-centered-template.html)*
+* full-width-left.html: Full Width and Left Aligned Layout - *[Result](http://clf.ubc.ca/theme-options/full-width-left-template.html)*
 
 Changes
 -------

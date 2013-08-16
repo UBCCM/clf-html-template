@@ -5,6 +5,8 @@ UBC CLF 7.0 HTML Templates
 
 Latest version of UBC CLF HTML templates. For more information, please visit [UBC CLF](http://clf.ubc.ca)
 
+For colour options, please visit [UBC CLF theme](http://clf.ubc.ca/implementing-the-clf/#theme)
+
 What's available?
 -----------------
 * full-template.html: Fixed Width Layout - *[Result](http://clf.ubc.ca/theme-options/full-template.html)*

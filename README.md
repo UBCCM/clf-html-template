@@ -24,4 +24,11 @@ Changes
 * Added center aligned full width HTML templates
 * Moved campus ID span out of wordmark anchor block
 
+**v7.0.2**
+* campus ID located within wordmark anchor block
+* Added drop down support in primary navigation
+
+**v7.0.1**
+* First public release
+
 

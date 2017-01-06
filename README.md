@@ -3,7 +3,7 @@ CLF HTML Templates
 
 UBC CLF 7.0 HTML Templates
 
-**Current Version: v7.0.4**
+**Current Version: v7.0.5**
 
 Latest version of UBC CLF HTML templates. For more information, please visit [UBC CLF](http://clf.ubc.ca)
 
@@ -17,6 +17,9 @@ What's available?
 
 Changes
 -------
+**v7.0.5**
+* Updated header region to support latest changes
+
 **v7.0.4**
 * Added left aligned full width HTML templates
 

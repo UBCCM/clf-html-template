@@ -5,7 +5,7 @@
 <!--[if (IE 9)&!(IEMobile)]><html class="ie9" lang="en"><![endif]-->
 <!--[[if (gt IE 9)|(gt IEMobile 7)]><!--><html lang="en"><!--<![endif]-->
 <!--
- * UBC CLF (Common Look and Feel) v7.0.5
+ * UBC CLF (Common Look and Feel) v7.0.6
  * Copyright 2012 The University of British Columbia
  * UBC Communications and Marketing
  * http://brand.ubc.ca/clf
@@ -55,7 +55,7 @@
         	<div class="container">
 	            <div id="ubc7-search-box">
 	                <form class="form-search" method="get" action="//www.ubc.ca/search/refine/" role="search">
-	                    <input type="text" name="q" placeholder="Search this website" class="input-xlarge search-query">
+	                    <input type="text" name="q" placeholder="Search this website" aria-label="Search this website" class="input-xlarge search-query">
 	                    <input type="hidden" name="label" value="Search UBC" />
 	                    <input type="hidden" name="site" value="*.ubc.ca" />
 	                    <button type="submit" class="btn">Search</button>
@@ -125,7 +125,7 @@
                         <li class="dropdown">
                             <div class="btn-group">
                                 <a class="btn" href="//www.ubc.ca/">Dropdown</a>
-                                <button class="btn dropdown-toggle" data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
+                                <button class="btn dropdown-toggle" data-toggle="dropdown" aria-label="Open dropdown menu"><span aria-hidden="true" class="ubc7-arrow blue down-arrow"></span></button>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Action</a></li>
                                     <li><a href="#">Another action</a></li>
@@ -157,73 +157,43 @@
 	    <!-- Content Area -->
 	    <div class="content expand" role="main">
 	    <div class="row-fluid expand">
-        		<div class="span3 docs-sidebar" role="navigation">
-                	<h3>Simple side navigation</h3>
-                    <ul class="nav nav-list bootstrap-sidenav docs-sidenav affix-top">
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> First link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Second link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Third link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Fourth link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Fifth link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Sixth link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Seventh link</a></li>
-                        <li><a href="#"><div class="ubc7-arrow right-arrow"></div> Eighth link</a></li>
-                    </ul>
-                <p><i class="icon-info-sign"></i> Are you kidding? I need a more <a href="full-template-gw.html">complex side navigation</a>.</p>
-                </div>
-<div class="span6">
-	<h1>Page heading</h1>
-	<p>Bacon ipsum dolor sit amet magna short ribs salami laborum pariatur fugiat shankle excepteur bresaola in esse tail proident non. Doner velit frankfurter dolore ex pig veniam. Tempor sausage ea doner rump mollit filet mignon sint fatback. Filet mignon nostrud pork loin leberkas, voluptate enim ex <a href="#">pork belly</a> commodo.</p>
-	<p>Shankle cillum meatloaf mollit turkey tail qui irure labore. Shoulder incididunt spare ribs frankfurter filet mignon occaecat. Aute pork turkey consequat andouille minim biltong short ribs. Cupidatat ut fugiat dolore rump drumstick labore sed, corned beef et pancetta id. Salami quis shank pork belly irure. Shankle boudin aute pork belly drumstick irure ex biltong ribeye cow shoulder aliqua kielbasa occaecat. Brisket prosciutto meatball in cupidatat frankfurter occaecat voluptate jowl capicola deserunt pork belly.</p>
-	<h2>Subheading</h2>
-	<p>Ex in pork chop ullamco dolore. Tenderloin filet mignon sirloin aliqua. Sunt officia nulla pork chop ham. Boudin mollit dolore eiusmod ad filet mignon pariatur excepteur chicken dolore tongue. Do ut eu, ham irure quis sint. Dolore tongue strip steak andouille voluptate. Turkey elit dolore laborum chuck pig dolore ground round et meatloaf ball tip pork loin nulla.</p>
-	<p>Esse pork chop cupidatat, ut beef ribs tempor frankfurter rump dolore nostrud corned beef. Commodo ad flank shankle aute ham anim tri-tip id magna sunt <a href="#">meatball</a> tail. Occaecat ea veniam, proident meatloaf dolor pastrami. Dolore corned beef quis bresaola rump ut sunt. In cow tri-tip dolore biltong ullamco ball tip dolor non turducken do officia. Esse reprehenderit pastrami, bresaola hamburger laborum eiusmod beef meatball occaecat. Corned beef shankle labore, tri-tip ham hock hamburger capicola sint.</p>
-	<p>Fugiat irure jowl officia t-bone, mollit tri-tip. Incididunt pork chop biltong, ut irure reprehenderit tenderloin dolore laboris. In fugiat laborum occaecat t-bone swine tri-tip jowl beef spare ribs beef ribs consequat. Tri-tip pancetta labore non in. Boudin jowl hamburger, aute nulla cupidatat cow excepteur do ut meatball kielbasa bacon sint minim. Venison ut doner ut tail exercitation irure in velit in bacon short loin. Officia laborum capicola in deserunt salami turducken.</p>
-	<h3>Subsubheading</h3>
-	<p>Salami prosciutto chuck beef ribs sirloin, strip steak capicola ball tip kielbasa. Shankle pork belly tail capicola andouille. Prosciutto turkey andouille, leberkas strip steak pork loin bresaola ribeye shoulder short ribs short loin venison t-bone shankle sirloin. Tongue pig jowl, ham hock turkey pork chop shank ball tip cow short ribs ham leberkas short loin sirloin corned beef. Strip steak chicken beef, shankle swine pork loin pork belly drumstick turducken spare ribs jerky pancetta. Tri-tip jerky capicola shankle t-bone pork belly shank short loin rump strip steak ham hock. Tri-tip ham hock tongue pork chop meatloaf shoulder beef frankfurter sausage drumstick salami tail pork loin.</p>
-	<p><a href="#">Hamburger beef ribs</a> shankle meatloaf fatback tongue andouille cow drumstick tri-tip sirloin shoulder. Venison chuck meatball spare ribs tenderloin pork salami hamburger jowl cow chicken. Hamburger cow strip steak shankle flank rump tenderloin short ribs swine chuck beef pastrami drumstick jowl frankfurter. Shank shankle bacon pastrami flank sirloin swine bresaola cow ground round pork loin hamburger ham hock.</p>
-</div>
-	<div class="span3">
-    	<img src="http://clf.ubc.ca/_assets/images/placeholder.png" alt="Pretty picture placeholder" />
-        <p>&nbsp;</p>
-        	<blockquote class="pull-left">
- 			<small>Awesome Awesomeson doing something amazing</small>
-			</blockquote>
-    </div>
-</div>
-</div>
+			<div class="span3 docs-sidebar" role="navigation">
+				<h3>Simple side navigation</h3>
+				<ul class="nav nav-list bootstrap-sidenav docs-sidenav affix-top">
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> First link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Second link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Third link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Fourth link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Fifth link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Sixth link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Seventh link</a></li>
+					<li><a href="#"><div class="ubc7-arrow right-arrow"></div> Eighth link</a></li>
+				</ul>
+			<p><i class="icon-info-sign"></i> Are you kidding? I need a more <a href="full-template-gw.html">complex side navigation</a>.</p>
+			</div>
+			<div class="span6">
+				<h1>Page heading</h1>
+				<p>Bacon ipsum dolor sit amet magna short ribs salami laborum pariatur fugiat shankle excepteur bresaola in esse tail proident non. Doner velit frankfurter dolore ex pig veniam. Tempor sausage ea doner rump mollit filet mignon sint fatback. Filet mignon nostrud pork loin leberkas, voluptate enim ex <a href="#">pork belly</a> commodo.</p>
+				<p>Shankle cillum meatloaf mollit turkey tail qui irure labore. Shoulder incididunt spare ribs frankfurter filet mignon occaecat. Aute pork turkey consequat andouille minim biltong short ribs. Cupidatat ut fugiat dolore rump drumstick labore sed, corned beef et pancetta id. Salami quis shank pork belly irure. Shankle boudin aute pork belly drumstick irure ex biltong ribeye cow shoulder aliqua kielbasa occaecat. Brisket prosciutto meatball in cupidatat frankfurter occaecat voluptate jowl capicola deserunt pork belly.</p>
+				<h2>Subheading</h2>
+				<p>Ex in pork chop ullamco dolore. Tenderloin filet mignon sirloin aliqua. Sunt officia nulla pork chop ham. Boudin mollit dolore eiusmod ad filet mignon pariatur excepteur chicken dolore tongue. Do ut eu, ham irure quis sint. Dolore tongue strip steak andouille voluptate. Turkey elit dolore laborum chuck pig dolore ground round et meatloaf ball tip pork loin nulla.</p>
+				<p>Esse pork chop cupidatat, ut beef ribs tempor frankfurter rump dolore nostrud corned beef. Commodo ad flank shankle aute ham anim tri-tip id magna sunt <a href="#">meatball</a> tail. Occaecat ea veniam, proident meatloaf dolor pastrami. Dolore corned beef quis bresaola rump ut sunt. In cow tri-tip dolore biltong ullamco ball tip dolor non turducken do officia. Esse reprehenderit pastrami, bresaola hamburger laborum eiusmod beef meatball occaecat. Corned beef shankle labore, tri-tip ham hock hamburger capicola sint.</p>
+				<p>Fugiat irure jowl officia t-bone, mollit tri-tip. Incididunt pork chop biltong, ut irure reprehenderit tenderloin dolore laboris. In fugiat laborum occaecat t-bone swine tri-tip jowl beef spare ribs beef ribs consequat. Tri-tip pancetta labore non in. Boudin jowl hamburger, aute nulla cupidatat cow excepteur do ut meatball kielbasa bacon sint minim. Venison ut doner ut tail exercitation irure in velit in bacon short loin. Officia laborum capicola in deserunt salami turducken.</p>
+				<h3>Subsubheading</h3>
+				<p>Salami prosciutto chuck beef ribs sirloin, strip steak capicola ball tip kielbasa. Shankle pork belly tail capicola andouille. Prosciutto turkey andouille, leberkas strip steak pork loin bresaola ribeye shoulder short ribs short loin venison t-bone shankle sirloin. Tongue pig jowl, ham hock turkey pork chop shank ball tip cow short ribs ham leberkas short loin sirloin corned beef. Strip steak chicken beef, shankle swine pork loin pork belly drumstick turducken spare ribs jerky pancetta. Tri-tip jerky capicola shankle t-bone pork belly shank short loin rump strip steak ham hock. Tri-tip ham hock tongue pork chop meatloaf shoulder beef frankfurter sausage drumstick salami tail pork loin.</p>
+				<p><a href="#">Hamburger beef ribs</a> shankle meatloaf fatback tongue andouille cow drumstick tri-tip sirloin shoulder. Venison chuck meatball spare ribs tenderloin pork salami hamburger jowl cow chicken. Hamburger cow strip steak shankle flank rump tenderloin short ribs swine chuck beef pastrami drumstick jowl frankfurter. Shank shankle bacon pastrami flank sirloin swine bresaola cow ground round pork loin hamburger ham hock.</p>
+			</div>
+				<div class="span3">
+					<img src="http://clf.ubc.ca/_assets/images/placeholder.png" alt="Pretty picture placeholder" />
+					<p>&nbsp;</p>
+						<blockquote class="pull-left">
+						<small>Awesome Awesomeson doing something amazing</small>
+						</blockquote>
+				</div>
+			</div>
+		</div>
 	    <!-- End of Content Area -->
     </div>
-    <!-- Footer Area Unit Menu - Mobile Only -->
-    <div id="ubc7-unit-alternate-navigation" class="navbar expand visible-phone" role="navigation">
-        <div class="navbar-inner expand">
-            <div class="container">
-                <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">First Link</a></li>
-                        <li><a href="#">Second Link</a></li>
-                        <li><a href="#">Third Link</a></li>
-                        <li class="dropdown">
-                            <div class="btn-group">
-                                <a class="btn">Dropdown</a>
-                                <button class="btn dropdown-toggle" data-toggle="dropdown"><span class="ubc7-arrow blue down-arrow"></span></button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else</a></li>
-                                    <li class="nav-header">Navigation header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div><!-- /.nav-collapse -->
-            </div>
-        </div><!-- /navbar-inner -->
-    </div><!-- /navbar -->
-    <!-- End of Footer Area Unit Menu -->
     <footer id="ubc7-footer" class="expand">
         <div class="row-fluid expand" id="ubc7-unit-footer">
         	<div class="container">
@@ -239,10 +209,11 @@
 	            </div>
 	            <div class="span2">
 	                <strong>Find us on</strong>
-	                <div id="ubc7-unit-social-icons">
-	                    <a href="//www.ubc.ca/"><i class="icon-facebook-sign"></i></a>&nbsp;
-	                    <a href="//www.ubc.ca/"><i class="icon-twitter-sign"></i></a>
-	                </div>
+					<div id="ubc7-unit-social-icons">
+                        <a href="#" aria-label="facebook"><i class="icon-facebook-sign"></i></a>&nbsp;
+                        <a href="#" aria-label="twitter"><i class="icon-twitter-sign"></i></a>&nbsp;
+                        <a href="#" aria-label="youtube"><i class="icon-youtube"></i></a>
+                    </div>
 	            </div>
 			</div>
         </div>
@@ -274,7 +245,7 @@
         </div>
     </footer>
     <!-- Placed javascript at the end for faster loading -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="//cdn.ubc.ca/clf/7.0.5/js/ubc-clf.min.js"></script>
 </body>
 </html>

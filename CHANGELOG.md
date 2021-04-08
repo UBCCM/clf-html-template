@@ -6,4 +6,11 @@
 - Update CLF buttons based on accessibility errors
 
 ## 7.0.5
-- Removed A Place of Mind from header
+- Updated header region to support latest changes
+
+## 7.0.4
+- Added left aligned full width HTML templates
+
+## 7.0.3
+- Added center aligned full width HTML templates
+- Moved campus ID span out of wordmark anchor block

@@ -1,9 +1,10 @@
 
 # Change Log
 
-## 7.0.6
+## 7.0.5.1
 - Update jquery to 1.12.4
 - Update CLF buttons based on accessibility errors
+- Update HTML language from *en* to *en-ca*
 
 ## 7.0.5
 - Updated header region to support latest changes

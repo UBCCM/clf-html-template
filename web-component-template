@@ -122,7 +122,7 @@ ubc-header {
             </ubc-logo-bar>
             <ubc-unit-bar>
                 <nav aria-label="Site home">
-                    <a href="https://arts.ubc.ca/" class="ubc-unit-link">
+                    <a href="https://www.ubc.ca/" class="ubc-unit-link">
                     <span class="ubc-unit-faculty">Faculty name</span>
                     <span class="visually-hidden"> - </span>
                     <span class="ubc-unit-identifier">UBC/Website name</span>

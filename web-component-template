@@ -114,7 +114,7 @@ ubc-header {
             ubc-logo-bar {height:var(--logo-h)}
             ubc-unit-bar {height:var(--unit-h)}
             </style>
-            <link rel="stylesheet" href="https://cdn.ubc.ca/ubc/ubc-brand/latest/css/critical.css" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.ubc.ca/ubc/ubc-brand/latest-v1/css/critical.css" crossorigin="anonymous">
             <ubc-logo-bar>
                 <a href="//www.ubc.ca" aria-label="UBC Home">
                     <noscript><div class="ubc-logo"></div></noscript>

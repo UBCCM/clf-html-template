@@ -122,6 +122,7 @@ ubc-header {
             </ubc-logo-bar>
             <ubc-unit-bar>
                 <nav aria-label="Site home">
+                    <!-- Use for No-JavaScript Fallback, update as per website requirement -->
                     <a href="https://www.ubc.ca/" class="ubc-unit-link">
                     <span class="ubc-unit-faculty">Faculty name</span>
                     <span class="visually-hidden"> - </span>

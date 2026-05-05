@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<!--
+ * UBC Digital Brand Identity
+ * Copyright 2025 The University of British Columbia
+ * UBC Communications
+ * https://brand.ubc.ca/clf
+ */
+-->
+<head>
+<meta charset="utf-8">
+<title>The University of British Columbia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sample Description">
+<meta name="author" content="">
+<link rel="preconnect" href="https://cdn.ubc.ca" crossorigin>
+<link rel="preload" href="https://cdn.ubc.ca/ubc/ubc-brand/latest-v1/js/ubc-digital-brand.js" as="script" crossorigin="anonymous">
+<!-- Stylesheets -->
+<style type="text/css">
+/* Minimal Reset (Alternative to normalize.css) */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ /** Unit Bar background colour **/
+ubc-header {
+    --ubc-unit-background-color: #2F5D7C;
+}
+</style>
+<script type="module" src="https://cdn.ubc.ca/ubc/ubc-brand/latest-v1/js/ubc-digital-brand.js" crossorigin="anonymous" defer></script>
+<script>
+  // Optional: Listen for custom event from button component when show-menu-button is set
+  document.addEventListener("icon-button-click", (event) => {
+    const type = event.detail.type;
+    console.log("Button clicked! Type:", type);
+  });
+</script>
+</head>
+<body>
+    <!--
+        UBC Brand Identity Header and Footer Web Component
+
+        Usage:
+            <ubc-header></ubc-header>
+            <ubc-footer></ubc-footer>
+
+        <ubc-header> Attributes:
+            colour (string) - Sets the header color theme.
+                Options: "blue", "white"
+                Default: "white"
+            size (string) - Determines the header and footer size.
+                Options: "full", "fixed", "stretch"
+                Default: "full"
+            campus (string) - Specifies the campus.
+                Options: "", "vancouver", "okanagan"
+                Default: ""
+            website-faculty (string) - Name of the faculty.
+                Default: ""
+            website-name (string) - Name of the website.
+                Default: "UBC/Website name"
+            website-url (string) - Root URL for the website link.
+                Default: Current domain root (e.g., "https://www.ubc.ca")
+            search-placeholder (string) - Placeholder text for the search input.
+                Default: "Search this website"
+            search-label (string) - Text to disply in search form.
+                Default: "Search UBC"
+            search-site (string) - Search site filter for UBC Search.
+                Default: "*.ubc.ca"
+            search-type (string) - Type of search integration.
+                Options: 
+                    - default: UBC global search (uses `q`, default path `//www.ubc.ca/search/refine/`)
+                    - "wordpress": WordPress site search (uses `s`, default path `/`)
+                    - "drupal": Drupal site search (uses `keys`, default path `/search`)
+                Default: ""
+            search-path (string) - Custom search path for site-specific searches. Relative paths only.
+                Default: ""
+            role (string) - ARIA role attribute for the header element.
+                Default: "banner"
+            no-role (boolean) - If present, omits the role attribute.
+                Default: false
+            show-menu-button (boolean) - If present, displays the menu button for mobile navigation.
+                Default: false
+
+        <ubc-footer> Attributes:
+            role (string) - ARIA role attribute for the footer element.
+                Default: "contentinfo"
+            no-role (boolean) - If present, omits the role attribute.
+                Default: false
+
+        Example with options:
+            <ubc-header 
+                colour=""
+                campus=""
+                size="full"
+                website-faculty=""
+                website-name="UBC/Website name"
+                website-url=""
+                search-placeholder="Search this website" 
+                search-label="Search UBC" 
+                search-site="*.ubc.ca"
+                search-type=""
+                search-path=""
+                role="banner">
+            </ubc-header>
+    -->
+    <!-- Required: UBC Header at top of the page -->
+    <ubc-header>
+        <!-- Optional: No-JavaScript Fallback & FOUC support for CDN based requests -->
+        <template shadowrootmode="closed">
+            <style>
+            :host {--logo-h:98px;--unit-h:50px}
+            @media (min-width:1200px){:host{--logo-h:118px;--unit-h:60px}}
+            ubc-logo-bar {height:var(--logo-h)}
+            ubc-unit-bar {height:var(--unit-h)}
+            </style>
+            <link rel="stylesheet" href="https://cdn.ubc.ca/ubc/ubc-brand/latest/css/critical.css" crossorigin="anonymous">
+            <ubc-logo-bar>
+                <a href="//www.ubc.ca" aria-label="UBC Home">
+                    <noscript><div class="ubc-logo"></div></noscript>
+                </a>
+            </ubc-logo-bar>
+            <ubc-unit-bar>
+                <nav aria-label="Site home">
+                    <a href="https://arts.ubc.ca/" class="ubc-unit-link">
+                    <span class="ubc-unit-faculty">Faculty name</span>
+                    <span class="visually-hidden"> - </span>
+                    <span class="ubc-unit-identifier">UBC/Website name</span>
+                    </a>
+                </nav>
+            </ubc-unit-bar>
+        </template>
+    </ubc-header>
+    <!-- Content Area -->
+    <main>
+
+    </main>
+    <!-- End of Content Area -->
+    <!-- Required: UBC Footer at bottom of the page -->
+    <ubc-footer></ubc-footer>
+</body>
+</html>
